@@ -1,76 +1,139 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/cost.png";
+import project2 from "../assets/projects/cripto.png";
+import project3 from "../assets/projects/pizza.png";
+import project4 from "../assets/projects/vet.png";
+import project5 from "../assets/projects/lastport.png";
+import project6 from "../assets/projects/flask.jpg";
+import project7 from "../assets/projects/django.jpg";
+import project8 from "../assets/projects/reactsuper.jpg";
+import project9 from "../assets/projects/palsa.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for creating robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies such as React, HTML and CSS as well as back-end technologies such as Python, with Django, Flask Node.js, MySQL, PostgreSQL and MongoDB. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate informatic enginier and full stack developer with a knack for creating robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies such as React, HTML and CSS as well as back-end technologies such as Python, with Django, Flask Node.js, MySQL, PostgreSQL and MongoDB. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Django, Flask, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "None Freelance",
+    description: `Currently, I am a full-stack freelance programmer in continuous practice. I develop custom software, web applications, and websites. With a few clients, I can practice and learn more.`,
+    technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2019 - 2022",
+    role: "Project Manager/Backend Developer",
+    company: "National Pedagogic University 321",
+    description: `In this project, I served as the Project Manager and backend developer. We developed a system for the university's student services department using Vue.js and Python Flask, with a MongoDB database. The development consisted of multiple phases or sprints. We built an API in Flask and a frontend application in Vue.js to consume all the data. I worked with five other developers who were a great team. We used the SCRUM methodology, which was challenging as I did not have prior experience working as a SCRUM Master.`,
+    technologies: ["Trello", "Flask", "mongoDB"],
+  },
+  {
+    year: "2018 - 2019",
+    role: "Web Developer",
+    company: "Zacatecas Autonomus Univeristy",
+    description: `PresentWeb pages were developed for the academic unit ofhumanities for its researchers in the National ResearchersSystem (SNI). It was developed without any framework.Technical support was provided to the teams of thatacademic unit.`,
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    year: "2018 - 2018",
+    role: "Project Manager Intern",
+    company: "Zacatecas Council of Science and Technology",
+    description: `To conclude my informatic engineering, I was assigned a project by the Science and Technology Council of the state of Zacatecas. I worked at the secretary of agriculture of the state of Zacatecas, where I served as the project leader in the sub-scretary of agriculture. The project was developed using the Rational Unified Process (RUP) methodology. I collaborated with 6 developers and 2 database experts.The project was the new automation of the selection process of the beneficiaries of the agriculture programs of the secretary, currently the system works correctly. `,
+    technologies: ["RUP Methodology"],
+  },
+  {
+    year: "2017 - 2017",
+    role: "Web Developer Intern",
+    company: "Beer Factory Grupo Modeloy",
+    description: `I was internally assigned for my social service to support ABInBev in the production department for the SMED (ContinuousImprovement) team. I independently developed a systemwithout any framework for the verification of medical exams for all production personal. `,
+    technologies: ["PHP", "HTML", "CSS"],
+  },
+  {
+    year: "2016 - 2017",
+    role: "Administrative and IT Assistant",
+    company: "ADENAL Private Security",
+    description: `Provided technical support for employees work computers.Created web pages using WIXand HTML. Produced employee reports which included work assignments and attendance. `,
+    technologies: ["WIX"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Expense Contrtol App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Application to control expenses, in it you can add your expenses and it returns the percentage of your salary that you have spent.",
+    technologies: ["React", "CSS"],
+    link:"https://jocular-phoenix-4457d5.netlify.app/",
   },
   {
-    title: "Task Management App",
+    title: "Cryptocurrency quote",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Application that consumes real-time data on how much the most popular cryptocurrencies cost.",
+    technologies: ["React", "Tailwind CSS"],
+    link:"https://clever-pithivier-e611db.netlify.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "Pizza Boungiorno",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Website of a pizzeria, it is for informational purposes only.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    link:"https://untalkikin.github.io/coder-desarrolloweb.github.io/",
   },
   {
-    title: "Blogging Platform",
+    title: "Veterinary Appointments",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Veterinary appointment application, in which you can fill out the fields to schedule the appointment, is stored locally.",
+    technologies: ["React", "Tailwind CSS"],
+    link:"https://venerable-choux-f93895.netlify.app/",
+  },
+  {
+    title: "My last Portfolio",
+    image: project5,
+    description:
+      "I decided to update my portfolio for more practice and this is the previous one.",
+    technologies: ["React", "Tailwind CSS"],
+    link:"https://neon-meerkat-d4d531.netlify.app/",
+  },
+  {
+    title: "Super Heroes API",
+    image: project6,
+    description:
+      "To practice, he decided to make an api with python flask in which he would show me the superheroes stored in the database.",
+    technologies: ["Flask", "Sqlite3"],
+    link:"https://enriquedelatorre.pythonanywhere.com/superheroes",
+  },
+  {
+    title: "Django Rest Framework",
+    image: project7,
+    description:
+      "To improve my knowledge of django, Python decided to make an api with the django Rest Framework in which it made me the crud of the superheroes stored in the database.",
+    technologies: ["Django", "Sqlite3", "Django Rest Framework"],
+    link:"https://joseenriquedev.pythonanywhere.com/api/v1/heroes/",
+  },
+  {
+    title: "Frontend of Super Heroes ",
+    image: project8,
+    description:
+      "To consume the data that is in the backend of django reste framework, create this react application that brings the data.",
+    technologies: ["React", "MUI"],
+    link:"https://superheroeshenry.netlify.app/",
+  },
+  {
+    title: "Website for a company that sells aluminum",
+    image: project9,
+    description:
+      "I developed this page for a client who sells aluminum",
+    technologies:["HTML", "CSS", "Bootstrap"],
+    link:"https://palsa.mx/",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "4239 Fawn Meadows Circle, Clermont Florida 34711",
+  phoneNo: "+52 4921669031 ",
+  email: "kikedlt27@gmail.com",
 };
