@@ -8,52 +8,53 @@ import project7 from "../assets/projects/django.jpg";
 import project8 from "../assets/projects/reactsuper.jpg";
 import project9 from "../assets/projects/palsa.png";
 
-export const HERO_CONTENT = `I am a passionate informatic enginier and full stack developer with a knack for creating robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies such as React, HTML and CSS as well as back-end technologies such as Python, with Django, Flask Node.js, MySQL, PostgreSQL and MongoDB. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Software engineer with more than 4 years of experience in backend and frontend application development, holding a master’s degree in business and administration. My experience is further supported by various courses and personal projects. Looking for a career opportunity in the United States.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Django, Flask, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I am passionate about creating, developing, solving problems and managing solutions. My experience is reflected on my website, where you can explore my projects. My tech stack includes Python (Django and Flask) and MERN (MongoDB, Express.js, React and Node.js). I develop projects of various scales to provide adequate solutions."`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Full Stack Developer",
+    role: "Software Engineer",
     company: "None Freelance",
-    description: `Currently, I am a full-stack freelance programmer in continuous practice. I develop custom software, web applications, and websites. With a few clients, I can practice and learn more.`,
-    technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB"],
+    description: `Websites were successfully developed for several clients, which improved their sales and visits.`,
+    technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB", "NodeJS"],
   },
   {
     year: "2019 - 2022",
-    role: "Project Manager/Backend Developer",
-    company: "National Pedagogic University 321",
-    description: `In this project, I served as the Project Manager and backend developer. We developed a system for the university's student services department using Vue.js and Python Flask, with a MongoDB database. The development consisted of multiple phases or sprints. We built an API in Flask and a frontend application in Vue.js to consume all the data. I worked with five other developers who were a great team. We used the SCRUM methodology, which was challenging as I did not have prior experience working as a SCRUM Master.`,
-    technologies: ["Trello", "Flask", "mongoDB"],
+    role: "Product Design / Project Manager / Backend Developer",
+    company: " National Pedagogic University 321",
+    description: `Design the architecture and operation of a school management system, significantly improving the administration and efficiency of the school services department.
+                  I led a remote team of 5 developers in the development of a school management system, which significantly helped the institution simplify its processes.We developed as a team a Backend Software with Python Flask, creating various endpoints that significantly improved communication with the frontend.`,
+    technologies: ["Trello", "Flask", "mongoDB", "Project Manager"],
   },
   {
     year: "2018 - 2019",
     role: "Web Developer",
     company: "Zacatecas Autonomus Univeristy",
-    description: `PresentWeb pages were developed for the academic unit ofhumanities for its researchers in the National ResearchersSystem (SNI). It was developed without any framework.Technical support was provided to the teams of thatacademic unit.`,
+    description: `I developed the official web pages of the Humanities Academic Unit, significantly improving the aesthetics and SEO of the sites.`,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     year: "2018 - 2018",
     role: "Project Manager Intern",
     company: "Zacatecas Council of Science and Technology",
-    description: `To conclude my informatic engineering, I was assigned a project by the Science and Technology Council of the state of Zacatecas. I worked at the secretary of agriculture of the state of Zacatecas, where I served as the project leader in the sub-scretary of agriculture. The project was developed using the Rational Unified Process (RUP) methodology. I collaborated with 6 developers and 2 database experts.The project was the new automation of the selection process of the beneficiaries of the agriculture programs of the secretary, currently the system works correctly. `,
+    description: `I led a team of 6 programmers in the development of a management system for government support for farmers, automating processes and facilitating the inclusion of more beneficiaries. `,
     technologies: ["RUP Methodology"],
   },
   {
     year: "2017 - 2017",
     role: "Web Developer Intern",
     company: "Beer Factory Grupo Modeloy",
-    description: `I was internally assigned for my social service to support ABInBev in the production department for the SMED (ContinuousImprovement) team. I independently developed a systemwithout any framework for the verification of medical exams for all production personal. `,
+    description: `I developed a system for the verification of medical examinations in the production area of a brewery, significantly improving the management of these examinations. `,
     technologies: ["PHP", "HTML", "CSS"],
   },
   {
     year: "2016 - 2017",
-    role: "Administrative and IT Assistant",
+    role: "Web Developer and IT Assistant",
     company: "ADENAL Private Security",
-    description: `Provided technical support for employees work computers.Created web pages using WIXand HTML. Produced employee reports which included work assignments and attendance. `,
-    technologies: ["WIX"],
+    description: `Developed the company's website and provided technical support to computers, which significantly improved the company's advertising and IT infrastructure. `,
+    technologies: ["HTML", "CSS", "JQuery"],
   },
 ];
 
@@ -133,7 +134,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "4239 Fawn Meadows Circle, Clermont Florida 34711",
-  phoneNo: "+52 4921669031 ",
+  address: "Houston TX, USA",
+  phoneNo: "+1 (281) 360-25-44",
   email: "kikedlt27@gmail.com",
 };

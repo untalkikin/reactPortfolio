@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePicture from '../assets/programing.jpg'
+import profilePicture from '../assets/3.jpg'
 import { motion } from "framer-motion"
 
 
@@ -36,7 +36,8 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:123655795. */}
+              Software Engineer
             </motion.span>
             <motion.p
               variants={container(1)}
