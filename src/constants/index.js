@@ -8,52 +8,51 @@ import project7 from "../assets/projects/django.jpg";
 import project8 from "../assets/projects/reactsuper.jpg";
 import project9 from "../assets/projects/palsa.png";
 
-export const HERO_CONTENT = `Software engineer with more than 4 years of experience in backend and frontend application development, holding a master’s degree in business and administration. My experience is further supported by various courses and personal projects. Looking for a career opportunity in the United States.`;
+export const HERO_CONTENT = `Software engineer with over 6 years of experience in backend and frontend development, and a master's degree in business administration, successfully created and enhanced more than 10 products. Led teams to deliver projects that have significantly improved user experience and system efficiency. Eager to leverage my expertise and technical skills to drive further success.`;
 
-export const ABOUT_TEXT = `I am passionate about creating, developing, solving problems and managing solutions. My experience is reflected on my website, where you can explore my projects. My tech stack includes Python (Django and Flask) and MERN (MongoDB, Express.js, React and Node.js). I develop projects of various scales to provide adequate solutions."`;
+export const ABOUT_TEXT = `I am passionate about creating, developing, solving problems and managing solutions. My experience is reflected on my website, where you can explore some my projects. My tech stack includes Python (Django and Flask) and MERN (MongoDB, Express.js, React and Node.js). I develop projects of various scales to provide adequate solutions."`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Software Engineer",
     company: "None Freelance",
-    description: `Websites were successfully developed for several clients, which improved their sales and visits.`,
-    technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB", "NodeJS"],
+    description: `Developed and maintained web applications using technologies such as HTML, React, Node.js and Django MongoDB. Implemented multiple systems and websites that streamlined company processes by 60% and increased global visibility by 50%.`,
+    technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB", "NodeJS", "TypeScript"],
   },
   {
     year: "2019 - 2022",
-    role: "Product Design / Project Manager / Backend Developer",
+    role: "Project Manager / Backend Developer",
     company: " National Pedagogic University 321",
-    description: `Design the architecture and operation of a school management system, significantly improving the administration and efficiency of the school services department.
-                  I led a remote team of 5 developers in the development of a school management system, which significantly helped the institution simplify its processes.We developed as a team a Backend Software with Python Flask, creating various endpoints that significantly improved communication with the frontend.`,
+    description: `Collaborated on developing a backend software using Python Flask, creating multiple endpoints that greatly improved communication with the frontend. The implementation improved the university, enabling 1,900 students to check their grades and enroll remotely.`,
     technologies: ["Trello", "Flask", "mongoDB", "Project Manager"],
   },
   {
     year: "2018 - 2019",
     role: "Web Developer",
     company: "Zacatecas Autonomus Univeristy",
-    description: `I developed the official web pages of the Humanities Academic Unit, significantly improving the aesthetics and SEO of the sites.`,
+    description: `Developed the official web pages for the Humanities Academic Unit. This implementation enhanced the academic unit's visibility by 70%, leading to a 20% increase in enrollments.`,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     year: "2018 - 2018",
-    role: "Project Manager Intern",
+    role: "Tech Leader Intern/Project Manager Intern",
     company: "Zacatecas Council of Science and Technology",
-    description: `I led a team of 6 programmers in the development of a management system for government support for farmers, automating processes and facilitating the inclusion of more beneficiaries. `,
+    description: `Led a team of 6 programmers to develop a management system for government support to farmers. Successfully automated processes more efficiently and equitably for program beneficiaries, resulting in a 30% increase in applications and a 20% improvement in response time. `,
     technologies: ["RUP Methodology"],
   },
   {
     year: "2017 - 2017",
     role: "Web Developer Intern",
-    company: "Beer Factory Grupo Modeloy",
-    description: `I developed a system for the verification of medical examinations in the production area of a brewery, significantly improving the management of these examinations. `,
+    company: "Beer Factory Grupo Modelo",
+    description: `Developed a system to verify medical examinations in the production area of a brewery. The implementation of this system improved the control of medical verifications by 45%.`,
     technologies: ["PHP", "HTML", "CSS"],
   },
   {
     year: "2016 - 2017",
     role: "Web Developer and IT Assistant",
     company: "ADENAL Private Security",
-    description: `Developed the company's website and provided technical support to computers, which significantly improved the company's advertising and IT infrastructure. `,
+    description: `Developed the company's website and provided technical support for computers. The implementation of this website increased sales and contracts for the company by 25%. Providing technical support for computer systems improved the company's efficiency by 30%.`,
     technologies: ["HTML", "CSS", "JQuery"],
   },
 ];
@@ -133,8 +132,21 @@ export const PROJECTS = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    degree: "Bachelor Computer Egineer",
+    years: "2012-2018",
+    school: "Zacatecas Technological Institute",
+  },
+  {
+    degree: "Master in Bussines and Administration",
+    years: "2018-2023",
+    school: "Zacatecas Technological Institute",
+  },
+];
+
 export const CONTACT = {
-  address: "Houston TX, USA",
+  address: "Spring TX, USA",
   phoneNo: "+1 (281) 360-25-44",
   email: "kikedlt27@gmail.com",
 };
