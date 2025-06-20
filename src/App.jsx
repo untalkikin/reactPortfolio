@@ -6,6 +6,8 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Education from './components/Education'
+import Lenguajes from './components/Lenguajes';
+import Frameworks from './components/Frameworks';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <NavBar />
           <Hero />
           <About />
+          <Lenguajes />
+          <Frameworks />
           <Tecnologies />
           <Education />
           <Experience />

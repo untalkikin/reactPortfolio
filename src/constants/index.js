@@ -7,52 +7,73 @@ import project6 from "../assets/projects/flask.jpg";
 import project7 from "../assets/projects/django.jpg";
 import project8 from "../assets/projects/reactsuper.jpg";
 import project9 from "../assets/projects/palsa.png";
+import nexus from "../assets/projects/nexus.png";
+import conexion from "../assets/projects/conexion.png";
+import filex from "../assets/projects/filex.png";
+import sise from "../assets/projects/sise.png";
 
-export const HERO_CONTENT = `Software engineer with over 6 years of experience in backend and frontend development, and a master's degree in business administration, successfully created and enhanced more than 10 products. Led teams to deliver projects that have significantly improved user experience and system efficiency. Eager to leverage my expertise and technical skills to drive further success.`;
+export const HERO_CONTENT = `Software Engineer with over 6 years of experience in backend and frontend development, currently pursuing a Master’s in Software Engineering, and holder of a Master’s in Business Administration (MBA). Proven track record of successfully developing and enhancing over 20 digital products across various industries. Experienced in leading cross-functional teams to deliver scalable solutions that significantly improve user experience and system performance. Passionate about continuous learning and eager to contribute my technical expertise and strategic perspective to innovative and impact-driven projects.`;
 
-export const ABOUT_TEXT = `I am passionate about creating, developing, solving problems and managing solutions. My experience is reflected on my website, where you can explore some my projects. My tech stack includes Python (Django and Flask) and MERN (MongoDB, Express.js, React and Node.js). I develop projects of various scales to provide adequate solutions."`;
+export const ABOUT_TEXT = `I am passionate about building, problem-solving, and delivering well-structured solutions through technology. My portfolio showcases a selection of projects that reflect my hands-on experience and technical versatility. I specialize in Python (Django and Flask) and the MERN stack (MongoDB, Express.js, React, and Node.js), and have successfully developed projects of varying complexity, always aiming to deliver scalable and efficient results tailored to user needs.`;
 
 export const EXPERIENCES = [
   {
+    year: "2024 - 2025",
+    role: "Software Engineer",
+    company: "Technova SAPI",
+    description: ` •Full-stack and front-end projects continued for the consulting firm with specific requirements.
+     •Improvements are planned for final product delivery.`,
+    technologies: ["Javascript", "React.js", "Odoo", "PostgreSQL", "HTML", "TypeScript", "Bootstrap"],
+  },
+  {
     year: "2023 - Present",
     role: "Software Engineer",
-    company: "None Freelance",
-    description: `Developed and maintained web applications using technologies such as HTML, React, Node.js and Django MongoDB. Implemented multiple systems and websites that streamlined company processes by 60% and increased global visibility by 50%.`,
+    company: "Freelance",
+    description: `• Developed and maintained full stack web applications using React, Node.js, Express, and
+    MongoDB. •Improved company processes by 60% and increased global visibility by 50% through system optimizations.
+     •Integrated REST APIs to connect front-end interfaces with back-end databases.`,
     technologies: ["Javascript", "React.js", "Django", "Flask", "mongoDB", "NodeJS", "TypeScript"],
   },
   {
     year: "2019 - 2022",
     role: "Project Manager / Backend Developer",
     company: " National Pedagogic University 321",
-    description: `Collaborated on developing a backend software using Python Flask, creating multiple endpoints that greatly improved communication with the frontend. The implementation improved the university, enabling 1,900 students to check their grades and enroll remotely.`,
+    description: ` •Built backend services using Python Flask, creating multiple endpoints for real-time student
+    records. •Enabled 1,900 students to check grades and enroll remotely through the new system.
+     •Integrated MySQL databases and improved query performance, reducing response times by 25%.`,
     technologies: ["Trello", "Flask", "mongoDB", "Project Manager"],
   },
   {
     year: "2018 - 2019",
     role: "Web Developer",
     company: "Zacatecas Autonomus Univeristy",
-    description: `Developed the official web pages for the Humanities Academic Unit. This implementation enhanced the academic unit's visibility by 70%, leading to a 20% increase in enrollments.`,
+    description: `• Developed and deployed official web pages using HTML, CSS, and JavaScript.
+     • Increased the academic unit's visibility by 70%, contributing to a 20% rise in enrollments.`,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     year: "2018 - 2018",
     role: "Tech Leader Intern/Project Manager Intern",
     company: "Zacatecas Council of Science and Technology",
-    description: `Led a team of 6 programmers to develop a management system for government support to farmers. Successfully automated processes more efficiently and equitably for program beneficiaries, resulting in a 30% increase in applications and a 20% improvement in response time. `,
+    description: `•Led a team of 6 programmers to develop a management system for government support to farmers. 
+    •Successfully automated processes more efficiently and equitably for program beneficiaries, resulting in a 30% increase in applications and a 20% improvement in response time.`,
     technologies: ["RUP Methodology"],
   },
   {
     year: "2017 - 2017",
     role: "Web Developer Intern",
     company: "Beer Factory Grupo Modelo",
-    description: `Developed a system to verify medical examinations in the production area of a brewery. The implementation of this system improved the control of medical verifications by 45%.`,
+    description: `•Developed a system to verify medical examinations in the production area of a brewery. 
+    •The implementation of this system improved the control of medical verifications by 45%.`,
     technologies: ["PHP", "HTML", "CSS"],
   },
   {
     year: "2016 - 2017",
     role: "Web Developer and IT Assistant",
     company: "ADENAL Private Security",
-    description: `Developed the company's website and provided technical support for computers. The implementation of this website increased sales and contracts for the company by 25%. Providing technical support for computer systems improved the company's efficiency by 30%.`,
+    description: `•Developed the company's website and provided technical support for computers. 
+    •The implementation of this website increased sales and contracts for the company by 25%. 
+    •Providing technical support for computer systems improved the company's efficiency by 30%.`,
     technologies: ["HTML", "CSS", "JQuery"],
   },
 ];
@@ -130,6 +151,38 @@ export const PROJECTS = [
     technologies:["HTML", "CSS", "Bootstrap"],
     link:"https://palsa.mx/",
   },
+  {
+    title: "Nexus Technology Web Page",
+    image: nexus,
+    description:
+      "A website was developed for a technology startup.",
+    technologies:["HTML", "CSS", "Bootstrap"],
+    link:"https://software.nexustechstudio.com/",
+  },
+  {
+    title: "Conexion 812 web page",
+    image: conexion,
+    description:
+      "A website was developed for a news facebook page.",
+    technologies:["HTML", "CSS", "Bootstrap"],
+    link:"https://conexion812.com/",
+  },
+  {
+    title: "SISE UPN321",
+    image: sise,
+    description:
+      "Comprehensive university school administration system, developed for the National Pedagogic University 321.",
+    technologies:["Flask", "Bulma CSS", "Vue JS", "MongoDB", "GitLab"],
+    link:"https://test.admonupn321zac.com/",
+  },
+  {
+    title: "Filex Sign System",
+    image: filex,
+    description:
+      "A web application was developed for a company that provides digital signature services.",
+    technologies:["React", "Next", "TypeScript", "Laravel", "PostgreSQL", "Bootstrap", "AWS", "Docker"],
+    link:"https://filex.com.mx/",
+  },
 ];
 
 export const EDUCATION = [
@@ -143,10 +196,45 @@ export const EDUCATION = [
     years: "2018-2023",
     school: "Zacatecas Technological Institute",
   },
+  {
+    degree: "Master in Software Engineering",
+    years: "In progress",
+    school: "Research Math Center",
+  },
+  {
+    degree: "Certification in Web Development",
+    years: "2023",
+    school: "Coderhouse",
+  },
+  {
+    degree: "Certification in JavaScript",
+    years: "2023",
+    school: "Coderhouse",
+  },
+  {
+    degree: "Certification in Web ReactJS",
+    years: "2023",
+    school: "Coderhouse",
+  },
+  {
+    degree: "Practical Django Certificate",
+    years: "2020",
+    school: "Udemy",
+  },
+  {
+    degree: "Certificate in practical SCRUM for software projects",
+    years: "2020",
+    school: "Udemy",
+  },
+  {
+    degree: "Certificate in purchasing system with Django 2.2",
+    years: "2020",
+    school: "Udemy",
+  },
 ];
 
 export const CONTACT = {
-  address: "Spring TX, USA",
-  phoneNo: "+1 (281) 360-25-44",
+  address: "Zacatecas, Mexico",
+  phoneNo: "+52 492 169 9031",
   email: "kikedlt27@gmail.com",
 };
