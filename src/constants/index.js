@@ -18,6 +18,20 @@ export const ABOUT_TEXT = `I am passionate about building, problem-solving, and 
 
 export const EXPERIENCES = [
   {
+    year: "2025 - 2026",
+    role: "Full Stack Software Engineer",
+    company: "SEDUZAC Library System",
+    description: ` Developed a comprehensive library management system using Django and React, focused on book cataloging, loans, and user management. Implemented REST APIs, authentication and role-based access control, QR code generation for item identification, and relational database management. Improved efficiency in lending, returns, and bibliographic administration workflows.`,
+    technologies: ["TypeScript", "React", "Django", "PostgreSQL", "Django Rest Framework", "TailwindCss", "Vercel", "Railway"],
+  },  
+  {
+    year: "2025 - 2025",
+    role: "Full Stack Software Engineer",
+    company: "Clarisse Bakery",
+    description: ` •Developed a full ERP and e-commerce system using Django, Django REST Framework, React, and TypeScript. Implemented REST APIs, JWT-based authentication, role-based access control, online payments, and relational database management. Deployed and maintained the application in cloud environments, focusing on scalable architecture, security, and user experience.`,
+    technologies: ["TypeScript", "React", "Django", "PostgreSQL", "Django Rest Framework", "TailwindCss", "Vercel", "Railway"],
+  },
+  {
     year: "2024 - 2025",
     role: "Software Engineer",
     company: "Technova SAPI",
