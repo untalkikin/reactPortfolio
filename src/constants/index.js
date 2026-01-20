@@ -11,6 +11,8 @@ import nexus from "../assets/projects/nexus.png";
 import conexion from "../assets/projects/conexion.png";
 import filex from "../assets/projects/filex.png";
 import sise from "../assets/projects/sise.png";
+import clarisse from "../assets/projects/clarisse.png";
+import mofhoney from "../assets/projects/MofHoney.png";
 
 export const HERO_CONTENT = `Software Engineer with over 6 years of experience in backend and frontend development, currently pursuing a Master’s in Software Engineering, and holder of a Master’s in Business Administration (MBA). Proven track record of successfully developing and enhancing over 20 digital products across various industries. Experienced in leading cross-functional teams to deliver scalable solutions that significantly improve user experience and system performance. Passionate about continuous learning and eager to contribute my technical expertise and strategic perspective to innovative and impact-driven projects.`;
 
@@ -196,6 +198,22 @@ export const PROJECTS = [
       "A web application was developed for a company that provides digital signature services.",
     technologies:["React", "Next", "TypeScript", "Laravel", "PostgreSQL", "Bootstrap", "AWS", "Docker"],
     link:"https://filex.com.mx/",
+  },
+  {
+    title: "Clarisse Bakery System",
+    image: clarisse,
+    description:
+      "A full ERP and e-commerce system was developed for a bakery and pick up system",
+    technologies:["React", "TypeScript", "Python", "PostgreSQL", "Django", "Vercel", "Railway", "Tailwind CSS"],
+    link:"https://clarissebakery.com/",
+  },
+  {
+    title: "M of Honey Website",
+    image: mofhoney,
+    description:
+      "An informative website for a seed store, fetching data from Google sheets API.",
+    technologies:["React", "TypeScript", "App Scripts"],
+    link:"https://mof-honey.vercel.app/",
   },
 ];
 
