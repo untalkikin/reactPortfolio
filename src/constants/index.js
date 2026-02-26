@@ -13,6 +13,7 @@ import filex from "../assets/projects/filex.png";
 import sise from "../assets/projects/sise.png";
 import clarisse from "../assets/projects/clarisse.png";
 import mofhoney from "../assets/projects/MofHoney.png";
+import seduzac from "../assets/projects/seduzac.png";
 
 export const HERO_CONTENT = `Software Engineer with over 6 years of experience in backend and frontend development, currently pursuing a Master’s in Software Engineering, and holder of a Master’s in Business Administration (MBA). Proven track record of successfully developing and enhancing over 20 digital products across various industries. Experienced in leading cross-functional teams to deliver scalable solutions that significantly improve user experience and system performance. Passionate about continuous learning and eager to contribute my technical expertise and strategic perspective to innovative and impact-driven projects.`;
 
@@ -205,7 +206,7 @@ export const PROJECTS = [
     description:
       "A full ERP and e-commerce system was developed for a bakery and pick up system",
     technologies:["React", "TypeScript", "Python", "PostgreSQL", "Django", "Vercel", "Railway", "Tailwind CSS"],
-    link:"https://clarissebakery.com/",
+    link:"https://www.clarissepanaderia.com/",
   },
   {
     title: "M of Honey Website",
@@ -215,11 +216,19 @@ export const PROJECTS = [
     technologies:["React", "TypeScript", "App Scripts"],
     link:"https://mof-honey.vercel.app/",
   },
+  {
+    title: "Library System for SEDUZAC",
+    image: seduzac,
+    description:
+      "System for the management of the library of the Ministry of Education of the State of Zacatecas, developed with Django and React, with features such as book cataloging, loans, user management, and QR code generation for item identification.",
+    technologies:["Django", "PostgreSQL", "Django Rest Framework", "Docker", "React Native"],
+    link: "http://201.148.25.139:8080/catalog/",
+  },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Bachelor Computer Egineer",
+    degree: "Bachelor Computer Engineer",
     years: "2012-2018",
     school: "Zacatecas Technological Institute",
   },
