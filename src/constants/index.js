@@ -14,6 +14,8 @@ import sise from "../assets/projects/sise.png";
 import clarisse from "../assets/projects/clarisse.png";
 import mofhoney from "../assets/projects/MofHoney.png";
 import seduzac from "../assets/projects/seduzac.png";
+import mining from "../assets/projects/mining.png";
+import ticket from "../assets/projects/ticke-pro.png";
 
 export const HERO_CONTENT = `Software Engineer with over 6 years of experience in backend and frontend development, currently pursuing a Master’s in Software Engineering, and holder of a Master’s in Business Administration (MBA). Proven track record of successfully developing and enhancing over 20 digital products across various industries. Experienced in leading cross-functional teams to deliver scalable solutions that significantly improve user experience and system performance. Passionate about continuous learning and eager to contribute my technical expertise and strategic perspective to innovative and impact-driven projects.`;
 
@@ -223,6 +225,22 @@ export const PROJECTS = [
       "System for the management of the library of the Ministry of Education of the State of Zacatecas, developed with Django and React, with features such as book cataloging, loans, user management, and QR code generation for item identification.",
     technologies:["Django", "PostgreSQL", "Django Rest Framework", "Docker", "React Native"],
     link: "http://201.148.25.139:8080/catalog/",
+  },
+  {
+    title: "Mining Consulting",
+    image: mining,
+    description:
+      "Corporate website developed for a mining consulting firm focused on industrial safety, risk management, and regulatory compliance. The project's objective was to build a professional digital presence that clearly communicated the company's specialized services—risk assessment, training, compliance audits, and emergency response plans—to potential clients in the mining industry.",
+    technologies:["React 18", "Tailwind CSS"],
+    link: "https://minig-consulting.vercel.app/",
+  },
+  {
+    title: "Ticket Pro",
+    image: ticket,
+    description:
+      "TicketPro — Digital Ticketing for the Mexican Market A web platform for selling tickets to live events (concerts, conferences, comedy shows, electronic music festivals) focused on the Mexican market. The project was born as a modern alternative to traditional ticketing systems, integrating digital ticket issuance with unique QR codes per ticket for on-venue access validation.",
+    technologies:["React 18", "Next JS", "Tailwind CSS"],
+    link: "https://ticket-pro-topaz.vercel.app/",
   },
 ];
 
